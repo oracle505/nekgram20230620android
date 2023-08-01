@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.microsoft.appcenter",
+    "module": "appcenter-analytics",
+    "version": "5.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.2",
+      "buildId": "2wiinzoyqfgmtcfh5z45olymhu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.microsoft.appcenter",
+          "module": "appcenter",
+          "version": {
+            "requires": "5.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appcenter-analytics-5.0.1.aar",
+          "url": "appcenter-analytics-5.0.1.aar",
+          "size": 48828,
+          "sha512": "4f0d0f0beb3876758fd38647c1b16b56ed546d6a602db345990d3c532a7015c2423468c2565c06c6da38412d76fbe9c612f4a2e9acf3fd66ae17e2a0159f5bb0",
+          "sha256": "91f3c23eda5d0843c86af47a2636c5cdd4dbaacf2f6d97ac6f9c53a26cbf4d80",
+          "sha1": "8a293bf59d6f61d19306ef3d212d3c6390637ec4",
+          "md5": "4c87253a7d70e31b99ac7d28f4c03fb1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.microsoft.appcenter",
+          "module": "appcenter",
+          "version": {
+            "requires": "5.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appcenter-analytics-5.0.1.aar",
+          "url": "appcenter-analytics-5.0.1.aar",
+          "size": 48828,
+          "sha512": "4f0d0f0beb3876758fd38647c1b16b56ed546d6a602db345990d3c532a7015c2423468c2565c06c6da38412d76fbe9c612f4a2e9acf3fd66ae17e2a0159f5bb0",
+          "sha256": "91f3c23eda5d0843c86af47a2636c5cdd4dbaacf2f6d97ac6f9c53a26cbf4d80",
+          "sha1": "8a293bf59d6f61d19306ef3d212d3c6390637ec4",
+          "md5": "4c87253a7d70e31b99ac7d28f4c03fb1"
+        }
+      ]
+    }
+  ]
+}

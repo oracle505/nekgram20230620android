@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.microsoft.appcenter",
+    "module": "appcenter-crashes",
+    "version": "5.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.2",
+      "buildId": "2wiinzoyqfgmtcfh5z45olymhu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.microsoft.appcenter",
+          "module": "appcenter",
+          "version": {
+            "requires": "5.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appcenter-crashes-5.0.1.aar",
+          "url": "appcenter-crashes-5.0.1.aar",
+          "size": 68264,
+          "sha512": "d632244137950a9ceae17b0178eab2bdc903db46a221200d92689d78bda45a3773df78a99f0c7c62172aa68a216d2808944b3a1e2d31234ac6e87f6f57e1ec99",
+          "sha256": "229c9f27b9a8586ba2a9a6ff4b3c22f789537860c5ac2c2cc08c5533f2cd936e",
+          "sha1": "bbb0c19c9de960678b2c48f3947516ddc4222515",
+          "md5": "37b7f14e43fc9981d64e71d8da5327cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.microsoft.appcenter",
+          "module": "appcenter",
+          "version": {
+            "requires": "5.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "appcenter-crashes-5.0.1.aar",
+          "url": "appcenter-crashes-5.0.1.aar",
+          "size": 68264,
+          "sha512": "d632244137950a9ceae17b0178eab2bdc903db46a221200d92689d78bda45a3773df78a99f0c7c62172aa68a216d2808944b3a1e2d31234ac6e87f6f57e1ec99",
+          "sha256": "229c9f27b9a8586ba2a9a6ff4b3c22f789537860c5ac2c2cc08c5533f2cd936e",
+          "sha1": "bbb0c19c9de960678b2c48f3947516ddc4222515",
+          "md5": "37b7f14e43fc9981d64e71d8da5327cc"
+        }
+      ]
+    }
+  ]
+}

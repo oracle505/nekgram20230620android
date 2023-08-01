@@ -1,0 +1,143 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.lsposed.lsparanoid",
+    "module": "processor",
+    "version": "0.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-0.5.2.jar",
+          "url": "processor-0.5.2.jar",
+          "size": 64619,
+          "sha512": "38c3aa9ab58351f8353228ad6bb29963df3fedc8172524ba8da44c60399fa73d963ca09582f6eb92d6014780f609a7cb37049eb2575454e4a684b309700082bd",
+          "sha256": "b9fc85faf3427b69088cc773217290c171633462675ab515e20706577b2d6996",
+          "sha1": "6082b0a462d80b2da509da236b2791d030681801",
+          "md5": "72b4a991d73ae27b517252ad7fb5a907"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.lsposed.lsparanoid",
+          "module": "core",
+          "version": {
+            "requires": "0.5.2"
+          }
+        },
+        {
+          "group": "com.joom.grip",
+          "module": "grip",
+          "version": {
+            "requires": "0.9.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "processor-0.5.2.jar",
+          "url": "processor-0.5.2.jar",
+          "size": 64619,
+          "sha512": "38c3aa9ab58351f8353228ad6bb29963df3fedc8172524ba8da44c60399fa73d963ca09582f6eb92d6014780f609a7cb37049eb2575454e4a684b309700082bd",
+          "sha256": "b9fc85faf3427b69088cc773217290c171633462675ab515e20706577b2d6996",
+          "sha1": "6082b0a462d80b2da509da236b2791d030681801",
+          "md5": "72b4a991d73ae27b517252ad7fb5a907"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "processor-0.5.2-sources.jar",
+          "url": "processor-0.5.2-sources.jar",
+          "size": 22080,
+          "sha512": "f3a8861721a9dceb88101e833186e73f854d1deabd505b656efeeaa3f34d156c25f9b0e3ec5a8b71b0bae34837b4e061c3189f85895f8dce90153d11fc7e8cd1",
+          "sha256": "677b81d088f87eb319f5013b2b54bd6f6396d30b3526207d24c69a196e1b258f",
+          "sha1": "5a27af0fcbd91c6e6741524aae9119944eb4f215",
+          "md5": "acf7c36e68ab81844617c4d41306b1a6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "processor-0.5.2-javadoc.jar",
+          "url": "processor-0.5.2-javadoc.jar",
+          "size": 261,
+          "sha512": "4c98646eef106139bc4554ab89788ad5a39ba75d248c2ce88d082a0906ba4c02e01ffc6c3e1e9ef7785ecf407ea611ed64f0c9fe5e8c83c0a80c64e7706ef9d8",
+          "sha256": "f28344d115bf39be98f360b1f8e00621b62d67d2a218545cd909b7ad496b8dd6",
+          "sha1": "3511409016deb3162e5d1431d39976fd3990e41b",
+          "md5": "319fc1f27bdc2cffb0650cb1dcc5826f"
+        }
+      ]
+    }
+  ]
+}

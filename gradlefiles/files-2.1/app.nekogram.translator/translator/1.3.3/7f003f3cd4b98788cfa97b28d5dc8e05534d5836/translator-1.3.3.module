@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.nekogram.translator",
+    "module": "translator",
+    "version": "1.3.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "translator-1.3.3.aar",
+          "url": "translator-1.3.3.aar",
+          "size": 49219,
+          "sha512": "36153dbb637962e8515efbacf051c49a3724abfb1d03ae54d2e0e095b0da0cd58c9d9e51a333936e522ce425fb347dc3f42bbc2434c8e977b712c9db7a205a39",
+          "sha256": "44594a39bf0d46eb889cc67b18f4a89d8c298a2afae6eb493730fe56fc73727d",
+          "sha1": "3f94d4ceb43744094ff12f6cd27fa96a90dfc961",
+          "md5": "ce8bece2a6c102917e67e09c0a1b3929"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lsposed.lsparanoid",
+          "module": "core",
+          "version": {
+            "requires": "0.5.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk7"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-jdk8"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "translator-1.3.3.aar",
+          "url": "translator-1.3.3.aar",
+          "size": 49219,
+          "sha512": "36153dbb637962e8515efbacf051c49a3724abfb1d03ae54d2e0e095b0da0cd58c9d9e51a333936e522ce425fb347dc3f42bbc2434c8e977b712c9db7a205a39",
+          "sha256": "44594a39bf0d46eb889cc67b18f4a89d8c298a2afae6eb493730fe56fc73727d",
+          "sha1": "3f94d4ceb43744094ff12f6cd27fa96a90dfc961",
+          "md5": "ce8bece2a6c102917e67e09c0a1b3929"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "translator-1.3.3-javadoc.jar",
+          "url": "translator-1.3.3-javadoc.jar",
+          "size": 335804,
+          "sha512": "d275c2a6ff43fccf372a5f853542fe9785cd2b2f0371c1583c4a477ba7e25620241446ed96f0dc23603f7e6b6216ee938866f5e044b34c5adcacc8d9f5c5e2c4",
+          "sha256": "8204dfb9db8ca54a70c276436e30359e85680b67dd7d996f4f10f3fe66ff8fe5",
+          "sha1": "b4fbb96342a42c4c34285a26846141655e62e6f3",
+          "md5": "df381b25eec8d00b8a1863f751d87da1"
+        }
+      ]
+    }
+  ]
+}

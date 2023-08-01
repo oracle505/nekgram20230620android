@@ -1,0 +1,59 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.microsoft.appcenter",
+    "module": "appcenter",
+    "version": "5.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9.2",
+      "buildId": "2wiinzoyqfgmtcfh5z45olymhu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "appcenter-5.0.1.aar",
+          "url": "appcenter-5.0.1.aar",
+          "size": 210529,
+          "sha512": "86a8c4fbf607ce566968be5263b423d1fb249ebc1aff922237577c6981ae80a2bc6d935e4cf3867a473cb08b28170d9e12e7b81c8b276ef0c8abf262211a5933",
+          "sha256": "12e97725d0cad15c1991e767cfcf36d5eb50fcdf5b6e6bc17f5329878e641c86",
+          "sha1": "f3c2563944ab6fb6e12c34dbe267e45e32d0703c",
+          "md5": "dda379c35bf1caad8cd31d5e3efde9b8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "appcenter-5.0.1.aar",
+          "url": "appcenter-5.0.1.aar",
+          "size": 210529,
+          "sha512": "86a8c4fbf607ce566968be5263b423d1fb249ebc1aff922237577c6981ae80a2bc6d935e4cf3867a473cb08b28170d9e12e7b81c8b276ef0c8abf262211a5933",
+          "sha256": "12e97725d0cad15c1991e767cfcf36d5eb50fcdf5b6e6bc17f5329878e641c86",
+          "sha1": "f3c2563944ab6fb6e12c34dbe267e45e32d0703c",
+          "md5": "dda379c35bf1caad8cd31d5e3efde9b8"
+        }
+      ]
+    }
+  ]
+}

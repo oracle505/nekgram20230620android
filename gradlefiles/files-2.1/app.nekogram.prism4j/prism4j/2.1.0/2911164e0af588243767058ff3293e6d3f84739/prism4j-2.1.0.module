@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "app.nekogram.prism4j",
+    "module": "prism4j",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "prism4j-2.1.0.jar",
+          "url": "prism4j-2.1.0.jar",
+          "size": 88432,
+          "sha512": "73dcb731e2344d2d5166e01960dafeb23e10c1af177ebefcce55416a4cc487f49768447f4098382749c60fd977e7682c3f61de6b103845d681f5baea8d571c24",
+          "sha256": "54abed31487e67354c25100cdcf7a0a11a36f1677709ba630f7870786812c556",
+          "sha1": "e951edf7f718a9cde666545a8130db7d34009325",
+          "md5": "1ae96e75010d6be3820b26ed136b367f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "prism4j-2.1.0.jar",
+          "url": "prism4j-2.1.0.jar",
+          "size": 88432,
+          "sha512": "73dcb731e2344d2d5166e01960dafeb23e10c1af177ebefcce55416a4cc487f49768447f4098382749c60fd977e7682c3f61de6b103845d681f5baea8d571c24",
+          "sha256": "54abed31487e67354c25100cdcf7a0a11a36f1677709ba630f7870786812c556",
+          "sha1": "e951edf7f718a9cde666545a8130db7d34009325",
+          "md5": "1ae96e75010d6be3820b26ed136b367f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "prism4j-2.1.0-javadoc.jar",
+          "url": "prism4j-2.1.0-javadoc.jar",
+          "size": 240840,
+          "sha512": "5f1810af6ee49e610eb8b235b0d503d1fcc94bfcaa66c85a497ce5e846cf65e51f0ccf4cbc40a7fe82ed0f3c8532f50fdcfb65d60b0a5314819fecd5943735dc",
+          "sha256": "d5d82408efb3d48ee1a8fcd90c2f70d64a6e37963ae3b49da3d07d6219be7708",
+          "sha1": "aed907a9ba79655da4f0e2804d95360e4288bc85",
+          "md5": "c119cee63cbc2e041b63232e7c353a8e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "prism4j-2.1.0-sources.jar",
+          "url": "prism4j-2.1.0-sources.jar",
+          "size": 54922,
+          "sha512": "ce2fd870236b895c6cd30e77f8004c4f8caf6dd02eb1522d5fd0cce044ad8d8e543e271020f903d58f0aae08c8460f340d9e3dc995b2ea2414bd6b4edbf591c9",
+          "sha256": "eacfc96991150677dcf2314d4d4e55a75960fa78b7f80bd48cadc2a0777a4177",
+          "sha1": "2ed045c59b920257f8564c13724d2217ea513442",
+          "md5": "e5941024a3ded349a6a15e12d88fdcf9"
+        }
+      ]
+    }
+  ]
+}
